@@ -90,12 +90,12 @@ const LoginPage: React.FC = () => {
           fontSize: '48px',
           color: 'white',
           lineHeight: 1.15,
-          marginBottom: 20,
+          marginBottom: 10,
           maxWidth: 480,
         }}>
           Intelligent Care, <em>Connected</em> Workflows
         </h2>
-        <p style={{ fontSize: '16px', color: 'rgba(255,255,255,0.5)', maxWidth: 400, lineHeight: 1.7, marginBottom: 48 }}>
+        <p style={{ fontSize: '16px', color: 'rgba(255,255,255,0.5)', maxWidth: 400, lineHeight: 1.7, marginBottom: 38 }}>
           A modern clinical operations platform built for hospitals, clinics, and healthcare networks.
         </p>
 
@@ -109,7 +109,7 @@ const LoginPage: React.FC = () => {
             display: 'flex',
             alignItems: 'center',
             gap: 12,
-            marginBottom: 14,
+            marginBottom: 4,
             opacity: mounted ? 1 : 0,
             transform: mounted ? 'none' : 'translateY(10px)',
             transition: `opacity 0.5s ease ${0.2 + i * 0.1}s, transform 0.5s ease ${0.2 + i * 0.1}s`,
