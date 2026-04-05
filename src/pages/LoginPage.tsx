@@ -109,7 +109,7 @@ const LoginPage: React.FC = () => {
             display: 'flex',
             alignItems: 'center',
             gap: 12,
-            marginBottom: 4,
+            marginBottom: 24,
             opacity: mounted ? 1 : 0,
             transform: mounted ? 'none' : 'translateY(10px)',
             transition: `opacity 0.5s ease ${0.2 + i * 0.1}s, transform 0.5s ease ${0.2 + i * 0.1}s`,
