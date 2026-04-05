@@ -134,11 +134,11 @@ const LoginPage: React.FC = () => {
         {/* Bottom badge */}
         <div style={{
           position: 'absolute',
-          bottom: 40,
+          bottom: 30,
           left: 60,
           display: 'flex',
           alignItems: 'center',
-          gap: 100,
+          gap: 8,
           padding: '8px 14px',
           background: 'rgba(255,255,255,0.05)',
           border: '1px solid rgba(255,255,255,0.1)',
