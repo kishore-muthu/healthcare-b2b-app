@@ -183,7 +183,7 @@ const LoginPage: React.FC = () => {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="doctor@hospital.com"
+              placeholder="Enter Email"
               style={{
                 width: '100%',
                 padding: '11px 14px',
