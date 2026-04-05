@@ -283,6 +283,27 @@ const LoginPage: React.FC = () => {
               </>
             ) : 'Sign In'}
           </button>
+          <button
+  type="button"
+  onClick={() => {
+    setEmail('demo@mediflow.com');
+    setPassword('Demo@123');
+  }}
+  style={{
+    width: '100%',
+    padding: '13px',
+    background: 'transparent',
+    color: 'var(--teal)',
+    border: '1.5px solid var(--teal)',
+    borderRadius: 9,
+    fontSize: '14px',
+    fontWeight: 600,
+    marginTop: 8,
+    cursor: 'pointer',
+  }}
+>
+  👁 Try Demo Account
+</button>
         </form>
 
         {/* Demo notice */}
