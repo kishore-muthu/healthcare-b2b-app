@@ -306,7 +306,7 @@ const LoginPage: React.FC = () => {
 </button>
         </form>
 
-        {/* Demo notice */}
+        {/* Demo notice
         <div style={{
           marginTop: 28,
           padding: '12px 14px',
@@ -314,10 +314,10 @@ const LoginPage: React.FC = () => {
           border: '1px solid var(--teal-mid)',
           borderRadius: 9,
         }}>
-          {/* <p style={{ fontSize: '12px', color: 'var(--teal)', lineHeight: 1.6 }}>
+          <p style={{ fontSize: '12px', color: 'var(--teal)', lineHeight: 1.6 }}>
             <strong>Demo:</strong> Create a Firebase project, add your config to <code>.env</code>, and sign up a user to log in. Or configure an email/password user in Firebase Console.
-          </p> */}
-        </div>
+          </p>
+        </div> */}
 
         <p style={{ fontSize: '11px', color: 'var(--text-muted)', textAlign: 'center', marginTop: 28 }}>
           © 2026 MediFlow Inc. · HIPAA Compliant Platform
